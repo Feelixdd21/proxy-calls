@@ -7,7 +7,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // Configuración de Twilio
 const accountSid = "AC7d0e7bc87c99d81a56e5f84581c94cda";
-const authToken = "511484b260246a81d5153cd671b73c7d";
+const authToken = "23b91591fb731061d2c232718ca056d7";
 const client = twilio(accountSid, authToken);
 
 // Número Twilio que será el callerId
