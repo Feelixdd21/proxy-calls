@@ -9,7 +9,7 @@ app.post("/incoming_call", (req, res) => {
   const twiml = new twilio.twiml.VoiceResponse();
 
   // Redirige la llamada al número real
-  twiml.dial("+54987654321"); // cambia por el número de destino real
+  twiml.dial("+522741155287"); 
 
   res.type("text/xml");
   res.send(twiml.toString());
